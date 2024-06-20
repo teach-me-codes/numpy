@@ -1,0 +1,158 @@
+[
+    {
+        "domain": "Introduction",
+        "titles": "Introduction to NumPy",
+        "detail": "NumPy is a fundamental package for scientific computing in Python. It provides support for arrays, matrices, and many mathematical functions to operate on these data structures.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Basics",
+        "titles": "NumPy Installation",
+        "detail": "NumPy can be installed using package managers like pip or conda. The command `pip install numpy` or `conda install numpy` installs the package.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Basics",
+        "titles": "Creating Arrays",
+        "detail": "NumPy provides several ways to create arrays, including functions like `numpy.array`, `numpy.zeros`, `numpy.ones`, `numpy.arange`, and `numpy.linspace`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Basics",
+        "titles": "Array Attributes",
+        "detail": "NumPy arrays have various attributes such as shape, size, dtype, ndim, and itemsize that provide information about the array's properties.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Basics",
+        "titles": "Array Indexing and Slicing",
+        "detail": "NumPy supports indexing and slicing similar to Python lists, allowing for the selection of specific elements, subarrays, and multidimensional slices.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Basics",
+        "titles": "Array Manipulation",
+        "detail": "NumPy provides functions for reshaping, resizing, flattening, and transposing arrays, such as `numpy.reshape`, `numpy.resize`, `numpy.ravel`, and `numpy.transpose`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Array Operations",
+        "titles": "Element-wise Operations",
+        "detail": "NumPy supports element-wise operations for arithmetic, comparison, and logical operations on arrays. Functions like `numpy.add`, `numpy.subtract`, `numpy.multiply`, and `numpy.divide` are commonly used.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Array Operations",
+        "titles": "Broadcasting",
+        "detail": "Broadcasting is a powerful feature in NumPy that allows arithmetic operations on arrays of different shapes. It implicitly expands the smaller array to match the shape of the larger one.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Array Operations",
+        "titles": "Mathematical Functions",
+        "detail": "NumPy provides a wide range of mathematical functions, including trigonometric, exponential, and logarithmic functions. Examples include `numpy.sin`, `numpy.cos`, `numpy.exp`, and `numpy.log`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Array Operations",
+        "titles": "Statistical Functions",
+        "detail": "NumPy includes statistical functions to perform operations such as mean, median, standard deviation, and variance. Functions include `numpy.mean`, `numpy.median`, `numpy.std`, and `numpy.var`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Array Operations",
+        "titles": "Linear Algebra",
+        "detail": "NumPy provides functions for linear algebra operations, including matrix multiplication, inversion, eigenvalues, and singular value decomposition. Functions include `numpy.dot`, `numpy.linalg.inv`, `numpy.linalg.eig`, and `numpy.linalg.svd`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Array Operations",
+        "titles": "Random Number Generation",
+        "detail": "NumPy's random module provides functions for generating random numbers and performing random sampling. Functions include `numpy.random.rand`, `numpy.random.randint`, and `numpy.random.normal`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "Advanced Indexing",
+        "detail": "Advanced Indexing in NumPy allows for more complex selections using boolean arrays, integer arrays, and combinations of basic and advanced indexing.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "Masked Arrays",
+        "detail": "Masked Arrays in NumPy are arrays that may have missing or invalid entries. The `numpy.ma` module provides support for masked arrays and operations on them.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "Structured Arrays",
+        "detail": "Structured Arrays are NumPy arrays with a structured data type, allowing each element to be a record with named fields. They are useful for handling heterogeneous data.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "Memory Management",
+        "detail": "Memory Management in NumPy involves understanding the array's memory layout, views, copies, and strategies to optimize memory usage. Functions like `numpy.copy` and `numpy.view` are used for managing memory.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "NumPy and C Extensions",
+        "detail": "NumPy can interface with C/C++ code using the ctypes library or Cython. This allows for performance optimization by leveraging compiled code.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "Fast Fourier Transform",
+        "detail": "NumPy provides functions for performing Fast Fourier Transform, which is useful for signal processing. The primary function is `numpy.fft.fft`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Advanced Topics",
+        "titles": "Polynomials",
+        "detail": "NumPy supports polynomial operations with the `numpy.polynomial` module, including polynomial creation, arithmetic, and finding roots. Functions include `numpy.polynomial.Polynomial` and `numpy.polynomial.polynomial.polyval`.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Performance",
+        "titles": "Performance Optimization",
+        "detail": "NumPy provides tools and techniques for optimizing performance, including vectorization, avoiding loops, and using efficient array operations.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Performance",
+        "titles": "Parallel Computing",
+        "detail": "NumPy supports parallel computing through libraries like Dask and Numba, enabling efficient handling of large datasets and computational tasks.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Integration",
+        "titles": "Integration with Pandas",
+        "detail": "NumPy integrates seamlessly with the Pandas library for data analysis, allowing for efficient manipulation and analysis of large datasets.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Integration",
+        "titles": "Integration with SciPy",
+        "detail": "NumPy forms the foundation of the SciPy library, which provides additional functionality for scientific and technical computing, including optimization, integration, and more.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Utilities",
+        "titles": "Saving and Loading Arrays",
+        "detail": "NumPy provides functions for saving and loading arrays to and from disk, including `numpy.save`, `numpy.load`, and `numpy.savetxt` for various file formats.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Utilities",
+        "titles": "Testing and Debugging",
+        "detail": "NumPy includes utilities for testing and debugging, such as `numpy.testing` for writing test cases and verifying the correctness of code.",
+        "subject": "Python Library - NumPy"
+    },
+    {
+        "domain": "Utilities",
+        "titles": "Mathematical Constants",
+        "detail": "NumPy includes a set of mathematical constants like pi, e, and infinity, accessible through `numpy.pi`, `numpy.e`, and `numpy.inf`.",
+        "subject": "Python Library - NumPy"
+    }
+]
